@@ -170,7 +170,7 @@ print(jd.obj)
 
 ```
 import logging
-
+#当以下代码加载过一次之后 之后想调用直接import logging ，logging.error('AXXX')即可
 logging.basicConfig(
     filename='cmdb1.log',
     format='%(asctime)s - %(name)s - %(levelname)s -%(module)s:  %(message)s',
